@@ -1,0 +1,49 @@
+/*---- ViewPort ----*/
+#resume .progress {
+    background: #e1e1e1;
+}
+
+.progress-bar.nine,
+.progress-bar.eight {
+    background-color: #337ab7;
+}
+
+.progress-bar.eight {
+    background-color: #009933;
+}
+
+.progress-bar.seven {
+    background-color: #ff3300;
+}
+
+.progress-bar.six {
+    background-color: #ffff00;
+}
+
+.animating.nine {
+    width: 90%;
+}
+
+.animating.eight {
+    width: 80%;
+}
+
+.animating.seven {
+    width: 70%;
+}
+
+.animating.six {
+    width: 60%;
+}
+
+.animating {}
+
+.progress-bar {
+    height: 20px;
+    border-radius: 4px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    transition: 2s linear;
+    transition-property: width, background-color;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+/*---- End ViewPort ----*/

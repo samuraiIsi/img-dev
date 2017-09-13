@@ -1,0 +1,31 @@
+{
+    "@context": "http://img-dev.com/",
+    "@type": "Organization",
+    "url": "http://img-dev.com/",
+    "liCompInfo": [{
+        "aLink": "home",
+        "aClass": "activescrollspy",
+        "aFilter": "#header",
+        "aText": "Home"
+    }, {
+        "aLink": "about",
+        "aClass": "",
+        "aFilter": "#about",
+        "aText": "About Me"
+    }, {
+        "aLink": "skills",
+        "aClass": "",
+        "aFilter": "#skills",
+        "aText": "My Skills"
+    }, {
+        "aLink": "portfolio",
+        "aClass": "",
+        "aFilter": "#portfolio",
+        "aText": "Portfolio"
+    }, {
+        "aLink": "contact",
+        "aClass": "",
+        "aFilter": "#contact",
+        "aText": "Contact Me"
+    }]
+}

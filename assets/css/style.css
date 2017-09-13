@@ -1,0 +1,385 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background: #f5f5f5;
+    color: #6d6d6d;
+    overflow-x: hidden;
+    position: relative;
+    font: normal 20px 'Proxima', sans-serif;
+}
+
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+
+ul {
+	padding-left: 0;
+}
+
+#bodyContainer {
+    min-height: 100%;
+    position: relative;
+}
+
+.padding-lf--0 {
+	padding-left: 0;
+}
+
+.margin-top--20 {
+	margin-top: 20px;
+}
+.padding-top--20 {
+    padding-top: 20%;
+}
+/*#btn__sideNavigation.opened:before {
+    content: '\f00d';
+}*/
+body {
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+}
+
+.bg-body--active {
+    background-color: rgba(0,0,0,0.4);
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    /*transition: 0.3s;*/
+}
+
+.sidenav a:hover {
+    zoom: 102%;
+}
+
+.offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#wrapper {
+    transition: margin-left .5s;
+    padding: 0;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* --- Header --- */
+
+#home, #avatar, .jumbotron--presentation__name, .jumbotron--presentation__title {
+    position: relative;
+}
+#home {
+    color: #fff;
+    text-align: center;
+    background: #000;
+}
+.jumbotron--presentation {
+    position: relative;
+    padding: 4em 0;
+    background: url(../images/digital-388075_1920.jpg) center center no-repeat;
+    background-size: cover;
+    min-height: 620px;
+}
+
+.opacity--8 {
+    background: rgba(0, 0, 0, .8);
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+
+.opacity--8, .gradientLeft, .gradientRight {
+    position: absolute;
+    top: 0;
+}
+
+.gradientLeft {
+    background: url(https://www.michaeljanea.com/images/misc/gradientLeft.png) repeat-y left;
+    left: 0;
+}
+
+.gradientRight {
+    background: url(https://www.michaeljanea.com/images/misc/gradientRight.png) repeat-y right;
+    left: inherit;
+    right: 0;
+}
+
+.gradientLeft, .gradientRight {
+    width: 360px;
+    height: 100%;
+}
+.jumbotron--presentation__name {
+    font: normal 60px 'Pacifico', cursive;
+    margin-top: .5em;
+    color: rgba(255, 255, 255, .9);
+}
+
+.jumbotron--presentation__title {
+    font-size: 30px;
+}
+
+#arrow {
+    cursor: pointer;
+    width: 33px;
+    height: 31px;
+    display: block;
+    margin: 3em auto 2em;
+}
+
+/* --- About --- */
+
+#about, #portfolio, #contact {
+    padding: 0.5em 0 3em;
+}
+.about--icon {
+    color: #4d6580;
+}
+#portfolio {
+    padding-bottom: 530px;
+    min-height: 1500px;
+}
+
+h1 {
+    font-family: 'ProximaBold', serif;
+    color: #506a85;
+    text-transform: uppercase;
+    font-size: 70px;
+}
+/* --- Resume --- */
+#resume .progress {
+    background: #e1e1e1;
+}
+/* --- Portfolio --- */
+#portfolio .navigation a.active {
+    background: #222;
+    color: #fff;
+}
+
+#portfolio .navigation a:hover {
+    text-decoration: none;
+}
+
+#portfolio .navigation li {
+    display: inline-block;
+    margin-bottom: .5em;
+}
+
+.title-section {
+    margin: 0;
+    font: bold 60px 'Montserrat', sans-serif;
+    display: inline-block;
+    margin-bottom: .4em;
+}
+.title-section mark {
+    color: #4d6580;
+    text-decoration: underline;
+    background-color: transparent !important;
+}
+
+
+
+/* --- Animation --- */
+
+#wrapper {
+    margin-left: 0;
+}
+#wrapper.side__nav--opened {
+    margin-left: 250px;
+}
+#sideNavMenu {
+    width: 0;
+}
+/* --- buttons --- */
+
+#btn__sideNavigation {
+    background: #e6e6e6;
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    z-index: 100;
+    cursor: pointer;
+    -webkit-box-shadow: 1px 0 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 0 2px rgba(0, 0, 0, 0.1);
+    font-size: 24px;
+    -webkit-border-radius: 100px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+#btn__sideNavigation a {
+    display: block;
+    padding: 15px;
+}
+.btn-primary {
+    min-width: 90px;
+}
+.btn-primary:active, .btn-primary.active, .btn-primary:focus {
+    background-color: #1c4263;
+}
+.bar1 {
+    margin-top: 3px;
+}
+
+.bar3 {
+    margin-bottom: 0 !important;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: .4s;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: grey;
+    margin: 6px 0;
+    transition: .4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* --- End Buttons --- */
+/* --- Contact --- */
+
+#contact {
+	background-color: #506a85;
+	color: #fff;
+	padding-bottom: 20px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.captcha {
+	height: 60px;
+}
+
+/* ---- form ----- */
+
+.input-group .form-control {
+    z-index: 0;
+}
+
+.error {
+    color: red;
+    font-style: oblique;
+    display: none;
+}
+
+@media screen and (max-width: 360px){
+    .title-section{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 414px){
+    .fs-xs--12 {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 1200px)
+bootstrap.min.css:10
+.container {
+    width: 1170px;
+}
+
+@media only screen and (min-width: 1280px) {
+	.container--form {
+	    width: 35%;
+	}
+}
+
+textarea.form-control {
+    max-height: 115px;
+}
+
+.activescrollspy {
+  color: #fff !important;
+}
+
+.margin--bt--20 {
+    margin-bottom: 20px;
+}
+.margin--rl--5 {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+/*#loading {
+    position: relative;
+}*/
+.loading {
+    background: rgba(0, 0, 0, 0.97);
+    position: absolute;
+    height: 900px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+   /* -webkit-transition: background-color 0;
+    transition: background-color 0;
+    opacity: 1;
+    /*-webkit-transition: opacity 0;
+    transition: opacity 0;*/ 
+}
+
+.loading:before {
+    content: "\f013";
+    font-family: FontAwesome;
+    color: #fff;
+    font-size: 70px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    -webkit-animation: fa-spin 2s infinite linear;
+    animation: fa-spin 2s infinite linear;
+    text-align: center;
+}
+.loading--no {
+    display: none;
+}
+.fa-spin {
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+}

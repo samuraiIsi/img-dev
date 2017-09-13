@@ -1,0 +1,28 @@
+{
+  "name": "template_fp",
+  "version": "1.0.1",
+  "description": "Functional Programming",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build:css": "/assets/css/style.css > dist/main.css",
+    "uglifyjs": "mkdir -p dist/js && uglifyjs src/app/shared/*.js -m -o dist/js/app.js && uglifyjs src/app/shared/*.js -m -c -o dist/app.min.js && uglifyjs src/app/layout/*.js -m -c -o dist/app.min.js",
+    "patch-release": "npm version patch && npm publish && git push --follow-tags",
+    "uglifycss": "uglifycss src/assets/css/*.css --ugly-comments dist/app.min.css",
+    "images": "imagemin src/assets/images/* --out-dir=dist/images.min"
+  },
+  "keywords": [
+    "functional",
+    "programming",
+    "javascript"
+  ],
+  "author": "IMG",
+  "license": "ISC",
+  "devDependencies": {
+    "connect": "^3.6.2",
+    "serve-static": "^1.12.3",
+    "uglify-js": "^3.0.20",
+    "uglifycss": "0.0.27"
+  }
+}

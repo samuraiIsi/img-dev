@@ -1,0 +1,54 @@
+{
+    "@context": "http://img-dev.com/",
+    "@type": "Organization",
+    "url": "http://img-dev.com/",
+    "infoForm": [{
+        "fieldTag": "input",
+        "labelFor": "name",
+        "labelItemProp": "name",
+        "labelTexting": "Name",
+        "iconImg": "glyphicon glyphicon-user",
+        "fieldCompClass": "form-control s-input-animated",
+        "fieldCompType": "text",
+        "fieldCompName": "name",
+        "fieldCompPlaceholder": "Name",
+        "fieldCompRequired": "required",
+        "errorText": "Name must be filled out"
+    }, {
+        "fieldTag": "input",
+        "labelFor": "subject",
+        "labelItemProp": "subject",
+        "labelTexting": "Subject",
+        "iconImg": "glyphicon glyphicon-envelope",
+        "fieldCompClass": "form-control s-input-animated",
+        "fieldCompType": "text",
+        "fieldCompName": "subject",
+        "fieldCompPlaceholder": "Subject",
+        "fieldCompRequired": "required",
+        "errorText": "Subject must be filled out"
+    }, {
+        "fieldTag": "input",
+        "labelFor": "email",
+        "labelItemProp": "email",
+        "labelTexting": "Email",
+        "iconImg": "glyphicon glyphicon-envelope",
+        "fieldCompClass": "form-control s-input-animated",
+        "fieldCompType": "email",
+        "fieldCompName": "email",
+        "fieldCompPlaceholder": "Email",
+        "fieldCompRequired": "required",
+        "errorText": "Email must be filled out",
+        "errorRegText": "it must be proper email"
+    }, {
+        "fieldTag": "textarea",
+        "labelFor": "message",
+        "labelItemProp": "message",
+        "labelTexting": "Message",
+        "iconImg": "glyphicon glyphicon-envelope",
+        "fieldCompClass": "form-control",
+        "fieldCompType": "email",
+        "fieldCompName": "message",
+        "fieldCompPlaceholder": "Email",
+        "fieldCompRows": "10"
+    }]
+}

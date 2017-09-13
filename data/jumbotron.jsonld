@@ -1,0 +1,67 @@
+{
+    "@context": "http://img-dev.com/",
+    "@type": "Organization",
+    "url": "http://img-dev.com/",
+    "infoJumbo": [{
+        "compParentTag": "article",
+        "jumboClass": "jumbotron--presentation",
+        "jumboTitle": "jumbotron--presentation__name",
+        "jumboTitleText": "I. M. G.",
+        "divTitleTag": "h1",
+        "itemPropTitle": "positionDescription",
+        "jumboSubTitleClass": "jumbotron--presentation__title",
+        "jumboSubTitleTag": "p",
+        "jumboSubTitleText": "Front End Developer",
+        "opacityDiv": "opacity--8",
+        "section": "home"
+    }, {
+        "compParentTag": "header",
+        "jumboClass": "col-md-10 col-md-offset-1 text-center",
+        "jumboTitle": "title-section",
+        "jumboTitleText": "ABOUT ME",
+        "divTitleTag": "h2",
+        "itemPropTitle": "about",
+        "compNameMark": "mark",
+        "jumboSubTitleClass": "",
+        "jumboSubTitleTag": "p",
+        "jumboSubTitleText": "These are my responsibilities as Front-End Web Developer. If you need more information about me, please, go to contact and write me a few lines.",
+        "opacityDiv": " ",
+        "section": "about"
+    }, {
+        "compParentTag": "article",
+        "jumboClass": "col-md-4 col-sm-4 text-center",
+        "jumboTitle": "fa fa-code about--icon fa-4x",
+        "jumboTitleText": "",
+        "itemPropTitle": "knowledge",
+        "divTitleTag": "span",
+        "jumboSubTitleClass": "",
+        "jumboSubTitleTag": "p",
+        "jumboSubTitleText": "Reusability of code and libraries",
+        "opacityDiv": " ",
+        "section": "about"
+    }, {
+        "compParentTag": "article",
+        "jumboClass": "col-md-4 col-sm-4 text-center",
+        "jumboTitle": "fa fa-user about--icon fa-4x",
+        "jumboTitleText": "",
+        "itemPropTitle": "knowledge",
+        "divTitleTag": "span",
+        "jumboSubTitleClass": "",
+        "jumboSubTitleTag": "p",
+        "jumboSubTitleText": "Develop new user-facing features",
+        "opacityDiv": " ",
+        "section": "about"
+    }, {
+        "compParentTag": "article",
+        "jumboClass": "col-md-4 col-sm-4 text-center",
+        "jumboTitle": "fa fa-desktop about--icon fa-4x",
+        "jumboTitleText": "",
+        "itemPropTitle": "knowledge",
+        "divTitleTag": "span",
+        "jumboSubTitleClass": "",
+        "jumboSubTitleTag": "p",
+        "jumboSubTitleText": "Ensure the technical feasibility of UI/UX designs",
+        "opacityDiv": " ",
+        "section": "about"
+    }]
+}

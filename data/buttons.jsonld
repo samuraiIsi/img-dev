@@ -1,0 +1,50 @@
+{
+    "@context": "http://img-dev.com/",
+    "@type": "Organization",
+    "url": "http://img-dev.com/",
+    "infoBtnPrimary": [{
+    	"@type": "infoBtnPrimary",
+        "aLink": "javascript:void(0)",
+        "aClass": "btn btn-primary margin--rl--5 margin--bt--20 active",
+        "dataFilter": "all",
+        "aText": "All",
+        "methodData": "animateBoxes(e)"
+
+    }, {
+    	"@type": "infoBtnPrimary",
+        "aLink": "javascript:void(0)",
+        "aClass": "btn btn-primary margin--rl--5 margin--bt--20",
+        "dataFilter": "jQuery",
+        "aText": "jQuery",
+        "methodData": "animateBoxes(e)"
+    }, {
+    	"@type": "infoBtnPrimary",
+        "aLink": "javascript:void(0)",
+        "aClass": "btn btn-primary margin--rl--5 margin--bt--20",
+        "dataFilter": "vanilla",
+        "aText": "Vanilla JS",
+        "methodData": "animateBoxes(e)"
+    }, {
+    	"@type": "infoBtnPrimary",
+        "aLink": "javascript:void(0)",
+        "aClass": "btn btn-primary margin--rl--5 margin--bt--20",
+        "dataFilter": "angular-js",
+        "aText": "AngularJS",
+        "methodData": "animateBoxes(e)"
+    }, {
+    	"@type": "infoBtnPrimary",
+        "aLink": "javascript:void(0)",
+        "aClass": "btn btn-primary margin--rl--5 margin--bt--20",
+        "dataFilter": "angular2",
+        "aText": "Angular 2",
+        "methodData": "animateBoxes(e)"
+    },
+    {
+        "@type": "infoBtnPrimary",
+        "aLink": "javascript:void(0)",
+        "aClass": "btn btn-primary margin--rl--5 margin--bt--20",
+        "dataFilter": "react",
+        "aText": "React",
+        "methodData": "animateBoxes(e)"
+    }]
+}

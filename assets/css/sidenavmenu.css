@@ -1,0 +1,162 @@
+/*---- Animation Elements SideNavMenu ----*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(29, 29, 29, 0.98);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+#btn__sideNavigation.change {
+    left: 6em;
+}
+#sideNavMenu.side__nav--opened {
+    width: 250px;
+}
+#sideNavMenu__List {
+    margin-top: 40px;
+    list-style: none;
+}
+#sideNavMenu__List a {
+    position: relative;
+}
+.closed a:nth-child(1) {
+         animation: animated_div_closed_1 .8s 1;
+        -moz-animation: animated_div_closed_1 .8s 1;
+        -webkit-animation: animated_div_closed_1 .8s 1;
+        -o-animation: animated_div_closed_1 .8s 1;
+        -webkit-border-radius: 5px;
+    }
+.closed a:nth-child(2) {
+     animation: animated_div_closed_2 .8s 1;
+    -moz-animation: animated_div_closed_2 .8s 1;
+    -webkit-animation: animated_div_closed_2 .8s 1;
+    -o-animation: animated_div_closed_2 .8s 1;
+    -webkit-border-radius: 5px;
+}
+.closed a:nth-child(3) {
+     animation: animated_div_closed_3 .8s 1;
+    -moz-animation: animated_div_closed_3 .8s 1;
+    -webkit-animation: animated_div_closed_3 .8s 1;
+    -o-animation: animated_div_closed_3 .8s 1;
+    -webkit-border-radius: 5px;
+}
+.closed a:nth-child(4) {
+     animation: animated_div_closed_4 .8s 1;
+    -moz-animation: animated_div_closed_4 .8s 1;
+    -webkit-animation: animated_div_closed_4 .8s 1;
+    -o-animation: animated_div_closed_4 .8s 1;
+    -webkit-border-radius: 5px;
+}
+.closed a:nth-child(5) {
+     animation: animated_div_closed_5 .8s 1;
+    -moz-animation: animated_div_closed_5 .8s 1;
+    -webkit-animation: animated_div_closed_5 .8s 1;
+    -o-animation: animated_div_closed_5 .8s 1;
+    -webkit-border-radius: 5px;
+}
+ 
+.active a:nth-child(1) {
+     animation: animated_div_active_1 .8s 1;
+    -moz-animation: animated_div_active_1 .8s 1;
+    -webkit-animation: animated_div_active_1 .8s 1;
+    -o-animation: animated_div_active_1 .8s 1;
+    -webkit-border-radius: 5px;
+    left: 0px;
+}
+.active a:nth-child(2) {
+     animation: animated_div_active_2 .8s 1;
+    -moz-animation: animated_div_active_2 .8s 1;
+    -webkit-animation: animated_div_active_2 .8s 1;
+    -o-animation: animated_div_active_2 .8s 1;
+    -webkit-border-radius: 5px;
+    left: 0px;
+}
+.active a:nth-child(3) {
+     animation: animated_div_active_3 .8s 1;
+    -moz-animation: animated_div_active_3 .8s 1;
+    -webkit-animation: animated_div_active_3 .8s 1;
+    -o-animation: animated_div_active_3 .8s 1;
+    -webkit-border-radius: 5px;
+    left: 0px;
+}
+.active a:nth-child(4) {
+     animation: animated_div_active_4 .8s 1;
+    -moz-animation: animated_div_active_4 .8s 1;
+    -webkit-animation: animated_div_active_4 .8s 1;
+    -o-animation: animated_div_active_4 .8s 1;
+    -webkit-border-radius: 5px;
+    left: 0px;
+}
+.active a:nth-child(5) {
+     animation: animated_div_active_5 .8s 1;
+    -moz-animation: animated_div_active_5 .8s 1;
+    -webkit-animation: animated_div_active_5 .8s 1;
+    -o-animation: animated_div_active_5 .8s 1;
+    -webkit-border-radius: 5px;
+    left: 0px;
+}
+@keyframes animated_div_closed_1 {
+    0% { left: 0px; }
+    8% { left: 0px; }
+    99% { left: 500px;}
+    100% { left: 500px; }
+}
+@keyframes animated_div_closed_2 {
+    0% { left: 0px; }
+    6% { left: 0px; }
+    90% { left: 500px;}
+    100% { left: 500px; }
+}
+@keyframes animated_div_closed_3 {
+    0% { left: 0px; }
+    4% { left: 0px; }
+    80% { left: 500px;}
+    100% { left: 500px; }
+}
+@keyframes animated_div_closed_4 {
+    0% { left: 0px; }
+    2% { left: 0px; }
+    70% { left: 500px;}
+    100% { left: 500px; }
+}
+@keyframes animated_div_closed_5 {
+    0% { left: 0px; }
+    55% { left: 500px;}
+    100% { left: 500px; }
+}
+@keyframes animated_div_active_1 {
+    0% { left: 500px;}
+    55% { left: 0px; }
+    100% { left: 0px; }
+}
+ @keyframes animated_div_active_2 {
+    0% { left: 500px;}
+    4% { left: 500px; }
+    70% { left: 0px; }
+    100% { left: 0px; }
+}
+ @keyframes animated_div_active_3 {
+    0% { left: 500px;}
+    6% { left: 500px; }
+    80% { left: 0px; }
+    100% { left: 0px; }
+}
+ @keyframes animated_div_active_4 {
+    0% { left: 500px;}
+    8% { left: 500px; }
+    90% { left: 0px; }
+    100% { left: 0px; }
+}
+ @keyframes animated_div_active_5 {
+    0% { left: 500px;}
+    10% { left: 500px;}
+    99% { left: 0px; }
+    100% { left: 0px; }
+}
+
+/*---- End Animation Elements SideNavMenu ----*/

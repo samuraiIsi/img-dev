@@ -1,0 +1,113 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "I. M. G.",
+    "alternateName": "Isidoro Martinez Guerrero",
+    "url": "http://img-dev.com/",
+    "infoSkills": [{
+    	"@type": "infoSkills",
+        "titleText": "CSS / CSS 3",
+        "titleLanguage": "styleSheetLanguage",
+        "animateClass": "nine",
+        "numberInvText": "9 / 10",
+        "numberText": "9 out of 10"
+    }, {
+    	"@type": "infoSkills",
+        "titleText": "HTML / HTML5",
+        "titleLanguage": "markupLanguage",
+        "animateClass": "nine",
+        "numberInvText": "9 / 10",
+        "numberText": "9 out of 10"
+    }, {
+    	"@type": "infoSkills",
+        "titleText": "jQuery",
+        "titleLanguage": "javascriptLibrary",
+        "animateClass": "nine",
+        "numberInvText": "9 / 10",
+        "numberText": "9 out of 10"
+    }, {
+    	"@type": "infoSkills",
+        "titleText": "Resp. Design",
+        "titleLanguage": "responsiveDesign",
+        "animateClass": "nine",
+        "numberInvText": "9 / 10",
+        "numberText": "9 out of 10"
+    }, {
+    	"@type": "infoSkills",
+        "titleText": "JSON",
+        "titleLanguage": "dataFormat",
+        "animateClass": "eight",
+        "numberInvText": "8 / 10",
+        "numberText": "8 out of 10"
+    }, {
+    	"@type": "infoSkills",
+        "titleText": "Ajax",
+        "titleLanguage": "webDevelopmentTechnique",
+        "animateClass": "eight",
+        "numberInvText": "8 / 10",
+        "numberText": "8 out of 10"
+    }, {
+    	"@type": "infoSkills",
+        "titleText": "JavaScript",
+        "titleLanguage": "programmingLanguage",
+        "animateClass": "eight",
+        "numberInvText": "8 / 10",
+        "numberText": "8 out of 10"
+    }, {
+    	"@type": "infoSkills",
+        "titleText": "FP",
+        "titleLanguage": "paradigm",
+        "animateClass": "eight",
+        "numberInvText": "8 / 10",
+        "numberText": "8 out of 10"
+    }, {
+    	"@type": "infoSkills",
+        "titleText": "OOP",
+        "titleLanguage": "paradigm",
+        "animateClass": "eight",
+        "numberInvText": "8 / 10",
+        "numberText": "8 out of 10"
+    }, {
+    	"@type": "infoSkills",
+        "titleText": "Wordpress",
+        "titleLanguage": "cms",
+        "animateClass": "eight",
+        "numberInvText": "8 / 10",
+        "numberText": "8 out of 10"
+    }, {
+    	"@type": "infoSkills",
+        "titleText": "RESTful API",
+        "titleLanguage": "webResources",
+        "animateClass": "eight",
+        "numberInvText": "8 / 10",
+        "numberText": "8 out of 10"
+    }, {
+    	"@type": "infoSkills",
+        "titleText": "AngularJS",
+        "titleLanguage": "framework",
+        "animateClass": "seven",
+        "numberInvText": "7 / 10",
+        "numberText": "7 out of 10"
+    }, {
+    	"@type": "infoSkills",
+        "titleText": "Angular 2",
+        "titleLanguage": "framework",
+        "animateClass": "six",
+        "numberInvText": "6 / 10",
+        "numberText": "6 out of 10"
+    }, {
+    	"@type": "infoSkills",
+        "titleText": "React",
+        "titleLanguage": "framework",
+        "animateClass": "six",
+        "numberInvText": "6 / 10",
+        "numberText": "6 out of 10"
+    }, {
+    	"@type": "infoSkills",
+        "titleText": "Typescript",
+        "titleLanguage": "programmingLanguage",
+        "animateClass": "six",
+        "numberInvText": "6 / 10",
+        "numberText": "6 out of 10"
+    }]
+}
