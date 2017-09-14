@@ -174,7 +174,7 @@
         "divBoxContentParentClass": "box-content text-left",
         "divBoxContentTitleClass": "box-content_title",
         "divboxCategoryClass": "box-category newlines-formater",
-        "boxCategoryText": " HTML / HTML5\n CSS / CSS3, Flexbox\n Sass, Media Queries\n Vanilla JavaScript\n Webpack\n GIMP",
+        "boxCategoryText": " HTML / HTML5\n CSS / CSS3, Flexbox\n Media Queries\n Vanilla JavaScript, OOP\n npm-CLI\n GIMP",
         "viewTag": "p",
         "urlWeb": "This Web",
         "linkA": "",

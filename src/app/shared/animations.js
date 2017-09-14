@@ -20,7 +20,7 @@ var validateForm = function() {
     var email = document.forms["contactForm"]["email"].value;
     regExpEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     emailValidation = regExpEmail.test(email);
-    error = document.getElementsByClassName("error");
+    var error = document.getElementsByClassName("error");
     for (i = 0; i < error.length; i++) {
         error[i].style.display = "none";
     }
@@ -40,10 +40,12 @@ var validateForm = function() {
     }
 };
 
-var onblurContactInput = function() {
-    error = document.getElementsByClassName("error");
-    for (i = 0; i < error.length; i++) {
-        error[i].style.display = "none";
+var onfocusContactInput = function(e) {
+    e.parentNode.nextSibling.style.display = 'none';
+};
+var onblurContactInput = function(e) {
+    if (e == null || e == "") {
+        e.parentNode.nextSibling.style.display = 'block';
     }
 };
 
@@ -71,10 +73,3 @@ var animateBoxes = function(e) {
     }
 
 }
-/*
-var showAllBoxes = function() {
-    var allBoxesClass = document.querySelectorAll('.box_parent');
-    for (var i = 0; i < allBoxesClass.length; i++) {
-        allBoxesClass[i].classList.remove('box-animation--hide');
-    }
-}*/

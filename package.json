@@ -1,7 +1,7 @@
 {
-  "name": "template_fp",
+  "name": "img-dev",
   "version": "1.0.1",
-  "description": "Functional Programming",
+  "description": "My Portfolio",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

@@ -21,7 +21,7 @@ var formStructure = function() {
         formComp.setAttribute('action', '/action.php');
         formComp.setAttribute('method', 'POST');
         formComp.addEventListener('change', validateForm);
-        //formComp.setAttribute('enctype', 'text/plain');
+        formComp.setAttribute('enctype', 'text/plain');
         formComp.setAttribute('novalidate', true);
         divBtn = document.createElement('div');
         divBtn.setAttribute('class', 'pull-right margin-top--20');
@@ -31,14 +31,6 @@ var formStructure = function() {
         aComp.setAttribute('value', 'Send');
         aComp.setAttribute('disabled', 'true');
         aComp.setAttribute('class', 'btn btn-danger btn--oval btn--width text-uppercase');
-        //aCompText = document.createTextNode('Send');
-        //aComp.appendChild(aCompText);
-        //aComp.addEventListener('change', validateForm);
-        // aComp.onclick =  (function() { 
-        //         return function(e){
-        //             e.preventDefault();
-        //         }
-        //     })();
         divBtn.appendChild(aComp);
         for (var i = 0; i < data.infoForm.length; i++) {
             divParent = document.createElement('div');
@@ -65,7 +57,13 @@ var formStructure = function() {
             } else {
                 fieldComp.setAttribute('type', data.infoForm[i].fieldCompType);
                 fieldComp.setAttribute('required', data.infoForm[i].fieldCompRequired);
-                //fieldComp.setAttribute('focus', onblurContactInput);
+                //fieldComp.addEventListener('focus', onfocusContactInput);
+                fieldComp.onfocus = (function(){
+                    return function() { onfocusContactInput(this);}
+                })();
+                fieldComp.onblur = (function(){ 
+                    return function() { onblurContactInput(this);}
+                })();
                 pError = document.createElement('p');
                 pError.setAttribute('class', 'error');
                 pErrorText = document.createTextNode(data.infoForm[i].errorText);
@@ -89,7 +87,6 @@ var formStructure = function() {
 
             document.getElementById('formWrapper').appendChild(formComp);
         }
-        //document.getElementById('formWrapper').appendChild(divBtn);
 
         var resourceVP = document.createElement('script');
         resourceVP.src = "assets/js/scroll_views.js";
